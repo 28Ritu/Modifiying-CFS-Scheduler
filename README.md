@@ -17,15 +17,15 @@ extracted.
 ### Part 3: Making 'rtnice' System Call
 - Made info directory in the kernel.
 - 'info' directory includes:
-       ---- rtnice.c - C code for System call implementation.
-       ---- rtnice.h - header file.
-       ---- Makefile - Makefile for c code.
+	- rtnice.c - C code for System call implementation.
+        - rtnice.h - header file.
+        - Makefile - Makefile for c code.
        
 - Updated arch/x86/syscalls/syscall64.tbl to include the 'rtnice' system call.
 - Updated Linux kernel main Makefile to include the 'rtnice' system call.
 
 ### Part 4: Testing
 - rtnicetest.c tests the rtnice system call and the modified cfs scheduler.
--- ERRORS:
+#### ERRORS:
 	1. if no task with given PID exists.
 	2. if timeslice < 1 or greater than a certain value.
