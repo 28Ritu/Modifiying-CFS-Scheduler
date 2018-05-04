@@ -29,3 +29,5 @@ extracted.
 #### ERRORS:
 	1. if no task with given PID exists.
 	2. if timeslice < 1 or greater than a certain value.
+	
+##### PS: Patch can be applied to the linux-kernel 3.19 on Ubuntu Server 14.04.4. (Kernel may go into panic mode. Apply patch on your own risk)
