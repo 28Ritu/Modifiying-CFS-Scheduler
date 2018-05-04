@@ -17,9 +17,9 @@ extracted.
 ### Part 3: Making 'rtnice' System Call
 - Made info directory in the kernel.
 - 'info' directory includes:
-	- rtnice.c - C code for System call implementation.
-        - rtnice.h - header file.
-        - Makefile - Makefile for c code.
+	1. rtnice.c - C code for System call implementation.
+	2. rtnice.h - header file.
+	3. Makefile - Makefile for c code.
        
 - Updated arch/x86/syscalls/syscall64.tbl to include the 'rtnice' system call.
 - Updated Linux kernel main Makefile to include the 'rtnice' system call.
